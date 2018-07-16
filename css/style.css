@@ -1,0 +1,56 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+.cat{	
+	width:200px;
+	height:200px;	
+	}
+
+
+.margin-auto{	
+	
+  padding: 15px;
+  border: 1px solid #ccc;
+  background: white;
+  margin-bottom:15px;
+}
+  
+
+*{
+  padding:0;
+  margin:0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+header .ContactLinks{
+  
+  background:#303030;    
+  font-size:13px; 
+  line-height:1em;
+  position:absolute;  
+  width:100%; 
+}
+
+
+header p{
+  color: #ed1b24;
+  padding-top:  20px;
+  line-height:  0px;
+  font-family:  Arial, Helvetica, sans-serif;
+  padding-left: 150px;   
+}
+
+
+header .SocialLinks span{
+  position: relative;
+  right:165px;    
+  bottom: 16px;
+  color: #eee;
+  float: right;
+  line-height: 1em;
+  border: 1px solid #ed1b24;     
+}
+

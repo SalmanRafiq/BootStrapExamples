@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+
+	<link rel="stylesheet"
+    <link rel="stylesheet" href="css/bootstrap/css/bootstrap.css" />
+
+    <title>Document</title>
+
+    <style>
+        .TranEffect {
+            width: 100px;
+            height: 100px;
+            background: red;
+            -webkit-transition: 10s ease-out;
+            transition: 2s ease-in;
+
+
+        }
+
+        .TranEffect:hover{
+            width:300px;
+        }
+    
+    </style>
+
+</head>
+<body>
+        
+       <header>    
+       
+       	
+       		<!--Navigation bar starts from here-->
+       		<nav class="nav navbar-default navbar-static-top">
+            	<div class="container">
+                		
+                     <!--Brand Image of WebSite-->
+               				<a href="#" class="navbar-brand">CATS</a>   	
+			
+					<!--Toggle Button Shows Here --> 	
+                              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>	                                                              
+                              </button>
+                 
+                 
+                 <!--Actual nav bar starts from here -->
+                <div class="collapse navbar-collapse navHeaderCollapse">                
+                            <ul class="nav navbar-nav navbar-right">
+                                <li ><a href="#">Home</a></li>
+                                <li ><a href="#">About</a></li>
+                                <li ><a href="#">Contact</a></li>                                	
+                                <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Products<b class="caret"></b></a>
+                                    
+                                        <ul class="dropdown-menu  dropdown-menu-right">
+                                                <li><a href="#">Product 1 </a> </li>
+                                                <li><a href="#">Product 2 </a> </li>
+                                                <li><a href="#">Product 3 </a> </li>
+                                                <li><a href="#">Product 4 </a> </li>                                                                                                                                                                           				</ul>
+                               </li>                                
+                               <li ><a href="#">Careers</a></li>                            
+                            </ul>                                        
+                </div>    
+                </div>
+          </nav>   
+       	</header>
+
+
+
+
+		<!--Carousel Starts from here-->        	
+		<section class="container col-lg-12 ">
+        	<div class="row">
+            		<div class="col-sm-12">
+                    	<div id="my-slider" class="carousel slide" data-ride="carousel">                        
+                         	<ol class="carousel-indicators">
+                            	<li data-target="#my-slider" data-slide-to="0" class="active"></li>
+                            	<li data-target="#my-slider" data-slide-to="1"></li>                                                            
+                            </ol>                                                
+                        <div  class="carousel-inner" role="listbox">                            
+                                <div class="item active">
+                                    <img src="images/image-cat.jpg" height="500px" alt="Cat Picture" />
+                                    <div class="carousel-caption">
+                                    <h1>	Persian Cats 1 </h1>
+                                    </div>                            
+                                </div>    
+                                <div class="item">
+                                    <img src="images/cat-outdoor 1.jpg" height="500px" alt="Cat Picture" />
+                                    <div class="carousel-caption">
+                                    <h1>	Persian Cats 2 </h1>
+                                    </div>                            
+                                </div>                                
+						</div>			
+					<a class="left carousel-control"  href="#my-slider"  role="button" data-slide="prev">
+                    	<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                       	<span class="sr-only">Previous</span>
+                    
+                    </a>
+                    <a class="right carousel-control"    href="#my-slider"  role="button" data-slide="next">
+                    	<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    
+                    </a>
+                    
+				  </div>                    
+                    </div>            
+            </div>                
+        </section>        
+        
+        
+
+
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="css/js/bootstrap.js" ></script>
+
+</body>
+</html>
